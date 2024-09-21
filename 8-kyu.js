@@ -38,3 +38,23 @@
 // const arrayPlusArray = (arr1, arr2) => arr1.concat(arr2).reduce((acc,n)=>acc+n,0)
 
 // console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]))
+
+// function howMuchILoveYou(nbPetals) {
+//     if(nbPetals%7==1) {
+//         return 'not at all'
+//     }else if(nbPetals%7==2) {
+//         return 'madly'
+//     }else if(nbPetals%7==3) {
+//         return 'passionately'
+//     }else if(nbPetals%7==4) {
+//         return 'a lot'
+//     }else if(nbPetals%7==5) {
+//         return 'a little'
+//     }else{
+//         return 'I love you'
+//     }
+// }
+
+function distinct(a) {
+    return [];
+}
