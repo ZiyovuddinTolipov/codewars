@@ -9,8 +9,7 @@
 // }
 
 // // Test cases
-// console.log(digitalRoot(16));    
-
+// console.log(digitalRoot(16));
 
 // function whatCentury(year) {
 //     let century = Math.ceil(year / 100);
@@ -35,6 +34,24 @@
 // const data = new Date();
 // console.log(handAngle(data));
 
-function latestClock(a, b, c, d) {
-    return a+''+b+':'+c+''+d
+// function latestClock(a, b, c, d) {
+//     return a+''+b+':'+c+''+d
+// }
+function findKey(nums) {
+    let newArr = nums.map(num => {
+        return num.toString().split(''); 
+    });
+    console.log(newArr)
+    // let a= 0
+    // for (let i = 0; i < newArr.length; i++) {
+    //     for (let j = 0; j < newArr.length; j++) {
+    //         for (let q = 0; q < newArr[i].length; q++) {
+    //             console.log(a++) 
+                
+    //         }
+    //     }
+    // }
 }
+console.log(findKey([153456,123406,124456,323456,123458,123756]))
+
+
